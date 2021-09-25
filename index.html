@@ -7,12 +7,14 @@
     <title>Bootstrap</title>
     <!-- Link para estilo CSS dos servidores do Bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    
+
+
+
 </head>
 <body>
     <!--Menu (Nav Bar)-->
+    <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-        <div class="container-fluid">
           <a class="navbar-brand" href="#">SPAforYU</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,7 +46,6 @@
               <button class="btn btn-outline-dark" type="submit">Search</button>
             </form>
           </div>
-        </div>
       </nav>  
  <!--/Menu (Nav Bar)-->
 
@@ -102,7 +103,7 @@
         <button type="button" class="btn btn-danger">$399,00</button>
       </div>
     </div>
-    <div class="card ms-3">
+    <div class="card ms-3 d-flex">
       <img src="file:///C:/Users/usuario/Downloads/gift-animate.svg" class="card-img-top w-50 d-flex justify-content-center" alt="...">
       <div class="card-body">
         <h5 class="card-title">Silver Line</h5>
@@ -110,7 +111,7 @@
         <button type="button" class="btn btn-danger">$699,00</button>
       </div>
     </div>
-    <div class="card ms-3">
+    <div class="card ms-3 d-flex">
       <img src="file:///C:/Users/usuario/Desktop/free-shipping-animate%20(1).svg" class="card-img-top w-75 d-flex justify-content-center" alt="...">
       <div class="card-body">
         <h5 class="card-title">Gold Line</h5>
@@ -119,22 +120,93 @@
       </div>
     </div>
   </div>
+</div>  
+<!-- /Cards -->
+
+
+<!-- Texto e video -->
+<br>
+<br>
+<div class="clearfix">
+  <h3>How it works?</h3>
+  <p>
+    Manual lymphatic drainage is a type of body massage that helps the body to eliminate excess fluids and toxins, facilitating the treatment of cellulite, swelling or lymphedema, and is also widely used in the postoperative period of surgeries, especially surgery plastic.</p>
+  <p>
+    Our famous Skin Cleansing goes beyond treatment, it's your moment.Upon entering our cabins, you will enjoy an exclusive service, made with the Hydrosuction method, where all pores are deeply cleaned without pain and without the need to squeeze, thus avoiding future marks. In addition, we will use specific products for your skin type.</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/w40BjVRQSMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+</div>
+<!-- Texto e video -->
+
+
+<!-- Formulário -->
+<br>
+<br>
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
+<br>
+<br>
+<!-- Formulário -->
+
+
+<!-- Footer -->
+<div class="center">
+  <a href="https://www.instagram.com/anacarolinelr/" target="_blank">
+     <img class="tam parametros" src="assets/img/instagram.png" alt="logo instagram">
+   </a>
+   <a href="https://www.linkedin.com/in/ana-carolline-lima-b51701213/" target="_blank">
+     <img class="tam parametros" src="assets/img/linkedin.png" alt="logo linkedin">
+  </a>
 </div>
 
-  <!-- /Cards -->
+<p class="text-center"> 
+  Todos os Direitos Reservados: Ana Carolline Lima &copy;
+</p>
+</footer>
+<!-- Footer -->
 
-<!-- Texto e video -->
-<div class="row mt-4 mb-4">
-  <div class="col-md-6">
-    <h3>How it works?</h3>
-      <p>Manual lymphatic drainage is a type of body massage that helps the body to eliminate excess fluids and toxins, facilitating the treatment of cellulite, swelling or lymphedema, and is also widely used in the postoperative period of surgeries, especially surgery plastic.</p>
-      <p>Our famous Skin Cleansing goes beyond treatment, it's your moment.Upon entering our cabins, you will enjoy an exclusive service, made with the Hydrosuction method, where all pores are deeply cleaned without pain and without the need to squeeze, thus avoiding future marks. In addition, we will use specific products for your skin type.</p>
-  </div>
-<div>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/w40BjVRQSMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
- </div>
-<!-- Texto e video -->
+
 
 
     <!-- Scripts necessários para a utilização dos códigos Js do Bootstrap -->
